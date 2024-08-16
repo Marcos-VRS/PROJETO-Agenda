@@ -36,5 +36,9 @@ def search(request):
         )
         .order_by("-id")
     )
-    context = {"contacts": contacts, "site_title": "Search - "}
+    context = {
+        "contacts": contacts,
+        "site_title": "Search - ",
+        "search_value": search_value,
+    }
     return render(request, "contact/index.html", context)
