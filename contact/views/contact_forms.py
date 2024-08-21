@@ -9,7 +9,12 @@ from contact.forms import ContactForm
 
 def create(request):
     if request.method == "POST":
-        context = {"form": ContactForm(request.POST)}
+        form = ContactForm(request.POST)
+        context = {"form": form}
+        if form.is_valid():
+            contact = form.save()
+            contact.save()
+
         return render(request, "contact/create.html", context)
 
     context = {"form": ContactForm()}
