@@ -57,7 +57,7 @@ Criando as pastas do projeto e repositório
 mkdir ~/agendarepo ~/agendaapp
 ```
 
-Configurando os repositórios
+## Configurando os repositórios
 
 ```
 cd ~/agendarepo
@@ -71,14 +71,14 @@ git commit -m 'Initial'
 git push agendarepo main -u # erro
 ```
 
-No seu computador local
+## No seu computador local
 
 ```
 git remote add agendarepo usuario@IP_SERVIDOR:~/agendarepo
 git push agendarepo main
 ```
 
-No servidor
+## No servidor
 
 ```
 cd ~/agendaapp
