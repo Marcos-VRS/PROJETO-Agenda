@@ -83,7 +83,7 @@ O projeto oferece:
 ## **Uso**
 1. Acesse a plataforma na URL: http://127.0.0.1:8000/.
 2. Crie uma conta para começar a jogar ou faça login se já tiver um perfil.
-3. Faça um pedido selecionando os itens do cardápio
+3. Escolha um contato da agenda e veja suas informações.
 
 ---
 
